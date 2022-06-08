@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <div class="card">
+    <div class="hero-logo">
+      <header class="logo">
+        <img src="/images/logo.svg" alt="Base Apparel Logo" class="logo">
+      </header>
+    </div>
+    <div class="hero-text">
+      <main>
+        <h1 class="title"><span>WE'RE</span> COMING SOON</h1>
+        <p class="subtext">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals. </p>
+        <!-- <label for="email">Enter your email:</label> -->
+        <label class="email-after">
+          <input type="email" id="email" name="email" placeholder="Email Address" class="email">
+          <img src="/images/icon-error.svg" alt="" id="icon-alert" class="icon-alert">
+          <img src="/images/icon-arrow.svg" alt="" id="icon-img" class="icon-img" onclick="sendit()">
+        </label>
+        <p class="alert-message" id="alert-message">Please provide a valid email!</p>
+      </main>
+    </div>
+    <div class="hero-image"></div>
+  </div> 
+  <script src="/js/main.js"></script>
+</body>
+</html>
